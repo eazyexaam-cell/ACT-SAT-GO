@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "framework": null,
   "buildCommand": "cd nextgen-react && npm install && npm run build && cd .. && mkdir -p public && cp -r nextgen-react/dist/* public/",
   "outputDirectory": "public",
   "cleanUrls": true,
