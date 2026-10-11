@@ -73,6 +73,10 @@ model User {
   students      TutorAssignment[] @relation("TutorToStudent")
   tutors        TutorAssignment[] @relation("StudentToTutor")
   notifications Notification[]
+
+  // PDF documents an admin uploaded / shared with this user (Documents page)
+  documentsUploaded   Document[]           @relation("DocumentUploader")
+  documentAssignments DocumentAssignment[]
 }
 
 model TutorAssignment {
@@ -321,4 +325,40 @@ model AttemptEvent {
   attempt TestAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
 
   @@unique([attemptId, seq]) // makes retried batches idempotent
+}
+
+// PDF study material an admin uploads and shares with chosen students/tutors.
+// The file lives in the private Supabase Storage bucket "documents"
+// (storage = 'supabase', storagePath set) or, when storage isn't configured,
+// in the row itself (storage = 'db', data set). It is only ever served through
+// GET /api/documents/[id]/file, which checks the caller is an admin or assigned.
+model Document {
+  id           String   @id @default(uuid())
+  title        String
+  description  String?
+  fileName     String
+  sizeBytes    Int
+  storage      String   @default("supabase") @db.VarChar(16)
+  storagePath  String?
+  data         Bytes?
+  uploadedById String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  uploadedBy  User?                @relation("DocumentUploader", fields: [uploadedById], references: [id], onDelete: SetNull)
+  assignments DocumentAssignment[]
+}
+
+model DocumentAssignment {
+  id           String   @id @default(uuid())
+  documentId   String
+  userId       String
+  assignedById String?
+  createdAt    DateTime @default(now())
+
+  document Document @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([documentId, userId])
+  @@index([userId])
 }

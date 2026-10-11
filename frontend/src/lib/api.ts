@@ -709,6 +709,78 @@ export const api = {
     return res.json() as Promise<{ url: string; path: string; fileName: string; size: number }>
   },
 
+  // ASG Library (PDF documents). Admins see and manage everything; students
+  // and tutors only list / open documents assigned to them.
+  getLibraryDocuments: () => request<{ documents: LibraryDocument[] }>('/api/documents'),
+  uploadLibraryDocument: async (file: File, title: string, description: string) => {
+    clearApiCache()
+    // 1. Preferred: upload straight to private storage with a one-time signed URL.
+    const res = await fetch(`${BASE}/api/documents/upload-url`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...(await authHeaders()) },
+      body: JSON.stringify({ fileName: file.name, size: file.size }),
+    })
+    if (res.ok) {
+      const { bucket, path, token } = await res.json() as { bucket: string; path: string; token: string }
+      const { error } = await supabase.storage.from(bucket).uploadToSignedUrl(path, token, file, {
+        contentType: 'application/pdf',
+      })
+      if (error) throw new Error(error.message || 'Upload failed')
+      return request<{ document: LibraryDocument }>('/api/documents', {
+        method: 'POST',
+        body: JSON.stringify({ title, description, fileName: file.name, storagePath: path }),
+      })
+    }
+    if (res.status !== 503) {
+      const err = await res.json().catch(() => ({ error: res.statusText }))
+      throw new Error(err.error ?? 'Upload failed')
+    }
+    // 2. Storage not configured: send the file to the API (kept in the database, max 9 MB).
+    const formData = new FormData()
+    formData.append('file', file)
+    formData.append('title', title)
+    formData.append('description', description)
+    const res2 = await fetch(`${BASE}/api/documents`, {
+      method: 'POST',
+      headers: { ...(await authHeaders()) },
+      body: formData,
+    })
+    if (!res2.ok) {
+      const err = await res2.json().catch(() => ({ error: res2.statusText }))
+      throw new Error(err.error ?? 'Upload failed')
+    }
+    return res2.json() as Promise<{ document: LibraryDocument }>
+  },
+  updateLibraryDocument: (id: string, body: { title?: string; description?: string }) =>
+    request<{ document: { id: string; title: string; description: string | null } }>(`/api/documents/${id}`, {
+      method: 'PATCH',
+      body: JSON.stringify(body),
+    }),
+  deleteLibraryDocument: (id: string) =>
+    request<{ success: boolean }>(`/api/documents/${id}`, { method: 'DELETE' }),
+  setLibraryAssignments: (id: string, userIds: string[]) =>
+    request<{ success: boolean; assigned: number }>(`/api/documents/${id}/assignments`, {
+      method: 'PUT',
+      body: JSON.stringify({ userIds }),
+    }),
+  /** The PDF bytes, only for the in-app viewer (never a link or download). */
+  getLibraryDocumentFile: async (id: string): Promise<ArrayBuffer> => {
+    let res = await fetch(`${BASE}/api/documents/${id}/file`, { headers: await authHeaders(), cache: 'no-store' })
+    if (res.status === 401) {
+      const { data } = await supabase.auth.refreshSession()
+      const fresh = data.session?.access_token
+      res = await fetch(`${BASE}/api/documents/${id}/file`, {
+        headers: fresh ? { Authorization: `Bearer ${fresh}` } : {},
+        cache: 'no-store',
+      })
+    }
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({ error: res.statusText }))
+      throw new Error(err.error ?? 'Could not open the document')
+    }
+    return res.arrayBuffer()
+  },
+
   // Tutor Notes
   getNotes: (tutorId: string, studentId: string) =>
     request<{ notes: Array<{ id: string; text: string; author: string; createdAt: string }> }>(
@@ -881,3 +953,24 @@ export interface FreeTestLead {
   source?: string
 }
 
+
+export interface LibraryAssignee {
+  id: string
+  name: string
+  email: string
+  role: string
+}
+
+export interface LibraryDocument {
+  id: string
+  title: string
+  description: string | null
+  sizeBytes: number
+  /** Admin listing only. */
+  fileName?: string
+  createdAt?: string
+  uploadedBy?: string | null
+  assignees?: LibraryAssignee[]
+  /** Student / tutor listing only. */
+  assignedAt?: string
+}

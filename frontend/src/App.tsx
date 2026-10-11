@@ -49,6 +49,7 @@ const AdminAnalyticsPage = lazy(() => import('./pages/admin/AdminAnalyticsPage')
 const ReviewAttemptsPage = lazy(() => import('./pages/student/ReviewAttemptsPage').then((m) => ({ default: m.ReviewAttemptsPage })));
 const MistakesPage = lazy(() => import('./pages/student/MistakesPage').then((m) => ({ default: m.MistakesPage })));
 const DoubtsPage = lazy(() => import('./pages/student/DoubtsPage').then((m) => ({ default: m.DoubtsPage })));
+const LibraryPage = lazy(() => import('./pages/library/LibraryPage').then((m) => ({ default: m.LibraryPage })));
 const MyProgressPage = lazy(() => import('./pages/student/MyProgressPage').then((m) => ({ default: m.MyProgressPage })));
 
 function PageFallback() {
@@ -175,6 +176,7 @@ const router = createBrowserRouter(
         <Route path="doubts" element={<DoubtsPage />} />
 
         {/* Shared */}
+        <Route path="library" element={<LibraryPage />} />
         <Route path="settings" element={<SettingsPage />} />
       </Route>
 
