@@ -12,7 +12,9 @@ export function ArticlePage() {
   const article = ARTICLE_BY_SLUG[slug];
   if (!article) return <NotFoundPage />;
 
-  const related = ARTICLES.filter((a) => a.slug !== article.slug);
+  // Up to 4 other guides, same topic first.
+  const others = ARTICLES.filter((a) => a.slug !== article.slug);
+  const related = [...others.filter((a) => a.tag === article.tag), ...others.filter((a) => a.tag !== article.tag)].slice(0, 4);
 
   return (
     <>

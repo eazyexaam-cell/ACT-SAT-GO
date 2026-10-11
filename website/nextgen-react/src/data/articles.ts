@@ -490,6 +490,467 @@ export const ARTICLES: Article[] = [
       { name: 'Compass Education Group: Testing Policies in the Spotlight', url: 'https://www.compassprep.com/testing-spotlight/' },
     ],
   },
+  {
+    slug: 'what-is-a-good-act-score',
+    title: 'What Is a Good ACT Score in 2026?',
+    metaTitle: 'What Is a Good ACT Score in 2026? Averages & College Ranges | ACT SAT GO',
+    description:
+      'The average ACT score, what counts as a good composite for different kinds of colleges, and how to set the right target score for your college list.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'ACT',
+    answer:
+      'A good ACT score is one that falls in or above the middle 50% range of admitted students at the colleges you are applying to. As a national reference, the average ACT composite for the class of 2025 was 19.4 out of 36. A composite of 24 or higher is above average, 28 or higher is competitive at many selective colleges, and the most selective colleges typically admit students scoring 33 to 35.',
+    sections: [
+      {
+        heading: 'The national average',
+        paragraphs: [
+          'The ACT composite is scored from 1 to 36. According to ACT, the class of 2025 averaged a composite of 19.4, with section averages of 18.4 in English, 18.9 in Math, 20.0 in Reading and 19.6 in Science.',
+          'On the enhanced ACT, the composite is the average of English, Math and Reading only. Science is optional and reported separately.',
+        ],
+      },
+      {
+        heading: 'Good ACT scores by type of college',
+        paragraphs: [
+          'These are rough ranges to help you plan. Always check the published middle 50% range for each college on your list.',
+        ],
+        table: {
+          head: ['Type of college', 'Typical middle 50% ACT range', 'A strong target'],
+          rows: [
+            ['Most selective (Ivy League, Stanford, MIT and similar)', 'About 33 to 35', '34 or higher'],
+            ['Highly selective (top 50 national universities)', 'About 30 to 34', '32 or higher'],
+            ['Selective state flagships and private colleges', 'About 25 to 31', '29 or higher'],
+            ['Most other four-year colleges', 'About 19 to 25', '24 or higher'],
+          ],
+        },
+      },
+      {
+        heading: 'How to set your target score',
+        list: [
+          'List the colleges you plan to apply to, including reach, match and likely schools.',
+          'Look up the middle 50% ACT range for each one on its admissions page or Common Data Set.',
+          'Set your target at or above the top of the range for the colleges you care about most.',
+          'Take a full-length, timed practice test to find your starting score and the gap you need to close.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Is 24 a good ACT score?',
+        a: 'Yes. A 24 is well above the national average of 19.4 and is competitive at many state universities and private colleges. For highly selective colleges, where admitted students typically score 30 or higher, a 24 usually falls below the typical range.',
+      },
+      {
+        q: 'Is 30 a good ACT score?',
+        a: 'Yes. A 30 is a strong composite that places a student well above average and within the typical range at many selective colleges. It is equivalent to an SAT score of about 1370 on the official concordance table.',
+      },
+      {
+        q: 'What is the average ACT score?',
+        a: 'According to ACT, the average composite score for the class of 2025 was 19.4 out of 36, with averages of 18.4 in English, 18.9 in Math, 20.0 in Reading and 19.6 in Science.',
+      },
+      {
+        q: 'Does ACT Science count toward the composite score?',
+        a: 'Not on the enhanced ACT. The composite is the average of English, Math and Reading. Science is optional, and students who take it receive a separate Science score and a STEM score.',
+      },
+    ],
+    sources: [
+      { name: 'ACT: Class of 2025 graduating class data', url: 'https://www.act.org/gradclass2025' },
+      { name: 'ACT: 2025 average ACT scores by state and section', url: 'https://www.act.org/content/dam/act/unsecured/documents/2025-Average-ACT-Scores-by-State-Average-Score-by-Section.pdf' },
+    ],
+  },
+  {
+    slug: 'sat-test-dates',
+    title: 'SAT Test Dates 2026–27: Registration Deadlines and Score Release Dates',
+    metaTitle: 'SAT Test Dates 2026–27, Deadlines & Score Release | ACT SAT GO',
+    description:
+      'Every 2026–27 SAT weekend test date with its registration deadline, late registration deadline and score release date, plus how to choose the right date.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'SAT',
+    answer:
+      'The remaining SAT weekend test dates for the 2026–27 school year are November 7 and December 5, 2026, and March 6, May 1 and June 5, 2027. Registration closes about two weeks before each test, and scores are usually released about two weeks after test day. Pick a date that leaves time for a second attempt before your college application deadlines.',
+    sections: [
+      {
+        heading: '2026–27 SAT dates and deadlines',
+        paragraphs: [
+          'These are College Board’s published dates for SAT weekend testing. Deadlines close at 11:59 p.m. Eastern Time, and late registration costs an extra fee.',
+        ],
+        table: {
+          head: ['Test date', 'Registration deadline', 'Late registration and changes', 'Scores released'],
+          rows: [
+            ['October 3, 2026', 'September 18, 2026', 'September 22, 2026', 'October 16, 2026'],
+            ['November 7, 2026', 'October 23, 2026', 'October 27, 2026', 'November 20, 2026'],
+            ['December 5, 2026', 'November 20, 2026', 'November 24, 2026', 'December 18, 2026'],
+            ['March 6, 2027', 'February 19, 2027', 'February 23, 2027', 'March 19, 2027'],
+            ['May 1, 2027', 'April 16, 2027', 'April 20, 2027', 'May 14, 2027'],
+            ['June 5, 2027', 'May 21, 2027', 'May 25, 2027', 'June 21, 2027'],
+          ],
+        },
+      },
+      {
+        heading: 'How to choose your SAT date',
+        list: [
+          'Work back from your earliest college deadline. Early Action and Early Decision deadlines are usually November 1 or November 15 of senior year.',
+          'Plan for two attempts. Most students improve on a second sitting, so take the first test early enough to leave a later date free.',
+          'Leave enough preparation time. Most students need about 12 to 16 weeks to prepare from the start, or 4 to 6 weeks for a smaller improvement.',
+          'Avoid weeks packed with school exams, AP tests or major events.',
+        ],
+      },
+      {
+        heading: 'A common timeline for juniors',
+        table: {
+          head: ['When', 'What to do'],
+          rows: [
+            ['Fall of junior year', 'Take a full practice test and start preparing.'],
+            ['March or May of junior year', 'Take the first official SAT.'],
+            ['June of junior year, or August to October of senior year', 'Retake if needed, in time for early application deadlines.'],
+          ],
+        },
+      },
+    ],
+    faq: [
+      {
+        q: 'When is the next SAT?',
+        a: 'The next SAT weekend test dates are November 7 and December 5, 2026, followed by March 6, May 1 and June 5, 2027. Registration closes about two weeks before each date.',
+      },
+      {
+        q: 'How long does it take to get SAT scores?',
+        a: 'College Board releases most SAT weekend scores about two weeks after test day, and says scores can take two to four weeks. For example, scores for the December 5, 2026 test are scheduled for release on December 18, 2026.',
+      },
+      {
+        q: 'How many times can you take the SAT?',
+        a: 'There is no limit on how many times you can take the SAT. Most students take it two or three times, and many colleges superscore, combining your best section scores across test dates.',
+      },
+      {
+        q: 'Which SAT date is best for seniors applying early?',
+        a: 'For November Early Action or Early Decision deadlines, the October test is usually the last date whose scores arrive in time. Check each college’s policy, because some accept November scores for early applications.',
+      },
+    ],
+    sources: [
+      { name: 'College Board: SAT Dates and Deadlines', url: 'https://satsuite.collegeboard.org/sat/dates-deadlines' },
+      { name: 'College Board: SAT Score Release Dates', url: 'https://satsuite.collegeboard.org/scores/score-release-dates' },
+    ],
+  },
+  {
+    slug: 'enhanced-act-changes',
+    title: 'The Enhanced ACT Explained: What Changed and What It Means for You',
+    metaTitle: 'Enhanced ACT Changes Explained (2026) | ACT SAT GO',
+    description:
+      'How the enhanced ACT differs from the old ACT: fewer questions, more time per question, optional Science, a new composite and four answer choices in Math.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'ACT',
+    answer:
+      'The enhanced ACT is shorter, with fewer questions and more time per question. Science is now optional, the composite score is the average of English, Math and Reading only, and Math questions have four answer choices instead of five. The score scale is still 1 to 36, and scores from before the change remain valid.',
+    sections: [
+      {
+        heading: 'Old ACT vs enhanced ACT',
+        table: {
+          head: ['', 'Old ACT', 'Enhanced ACT'],
+          rows: [
+            ['English', '75 questions in 45 minutes', '50 questions in 35 minutes'],
+            ['Math', '60 questions in 60 minutes, 5 answer choices', '45 questions in 50 minutes, 4 answer choices'],
+            ['Reading', '40 questions in 35 minutes', '36 questions in 40 minutes'],
+            ['Science', 'Required: 40 questions in 35 minutes', 'Optional: 40 questions in 40 minutes'],
+            ['Composite score', 'Average of English, Math, Reading and Science', 'Average of English, Math and Reading'],
+            ['Core test time', 'About 2 hours 55 minutes', 'About 2 hours 5 minutes'],
+          ],
+        },
+      },
+      {
+        heading: 'What the changes mean for students',
+        list: [
+          'More time per question: every core section now gives more time per question than before, which helps students who felt rushed on the old ACT.',
+          'Science is your choice: skip it unless a college on your list requires or recommends it, or you are applying to STEM programs.',
+          'A STEM score: students who take Science also receive a STEM score, combining Math and Science.',
+          'Easier guessing odds in Math: with four answer choices instead of five, an educated guess is more likely to be right.',
+          'Shorter passages: English and Reading passages are shorter, so reading stamina matters a little less.',
+        ],
+      },
+      {
+        heading: 'Is the enhanced ACT easier?',
+        paragraphs: [
+          'The content is similar, but the test is less rushed and shorter, which many students find more comfortable. Because scores are scaled, a given composite reflects the same level of performance as before, so colleges compare old and new scores directly.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'When did the enhanced ACT start?',
+        a: 'The enhanced ACT launched for national online testing in spring 2025 and for national paper testing in fall 2025. State, district and international testing moved to the enhanced format starting in spring 2026.',
+      },
+      {
+        q: 'Is Science still part of the ACT?',
+        a: 'Science is still offered but is now optional. It no longer counts toward the 1 to 36 composite score. Students who take it receive a separate Science score and a STEM score.',
+      },
+      {
+        q: 'Are old ACT scores still valid?',
+        a: 'Yes. ACT has said that composite scores earned before the change do not change, and colleges continue to accept them. The score scale is still 1 to 36.',
+      },
+      {
+        q: 'How many questions are on the enhanced ACT?',
+        a: 'The enhanced ACT has 131 core questions: 50 English, 45 Math and 36 Reading, in about 2 hours 5 minutes. The optional Science section adds 40 questions and 40 minutes.',
+      },
+    ],
+    sources: [
+      { name: 'ACT: The Enhanced ACT Explained', url: 'https://counselorblog.act.org/the-enhanced-act-explained' },
+    ],
+  },
+  {
+    slug: 'digital-sat-adaptive-scoring',
+    title: 'Is the Digital SAT Adaptive? How Module 2 Works and Affects Your Score',
+    metaTitle: 'Is the Digital SAT Adaptive? How Module 2 Works | ACT SAT GO',
+    description:
+      'How the Digital SAT’s two-stage adaptive design works, why the second module matters for your score, and how to prepare for it.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'SAT',
+    answer:
+      'Yes. The Digital SAT is adaptive by section. Each section has two modules, and how well you do on the first module decides whether your second module is easier or harder. Doing well on module 1 unlocks the harder module 2, which is needed for the highest scores, because harder questions contribute more to your score.',
+    sections: [
+      {
+        heading: 'How the test is built',
+        table: {
+          head: ['Section', 'Module 1', 'Module 2', 'Total'],
+          rows: [
+            ['Reading and Writing', '27 questions, 32 minutes', '27 questions, 32 minutes', '54 questions, 64 minutes'],
+            ['Math', '22 questions, 35 minutes', '22 questions, 35 minutes', '44 questions, 70 minutes'],
+          ],
+        },
+        paragraphs: [
+          'Module 1 of each section contains a mix of easy, medium and hard questions. Your results on it decide which version of module 2 you get: one with more difficult questions, or one with fewer.',
+        ],
+      },
+      {
+        heading: 'How adaptive scoring affects your score',
+        list: [
+          'Scoring considers the difficulty of the questions you answer correctly, not just how many you get right.',
+          'Students who reach the harder module 2 can earn the highest scores. Students routed to the easier module 2 can still score well, but the top of the scale is harder to reach.',
+          'Each module includes a small number of unscored pretest questions, which look like the others. Treat every question as if it counts.',
+          'There is no penalty for wrong answers, so never leave a question blank.',
+        ],
+      },
+      {
+        heading: 'How to prepare for an adaptive test',
+        list: [
+          'Make module 1 count: work carefully and check your answers, because it decides your path.',
+          'Practice in Bluebook, College Board’s testing app, so the format, timer and built-in Desmos calculator feel familiar.',
+          'Use your time well: you can move back and forth within a module, so flag hard questions and return to them.',
+          'Train on hard questions too, so you are ready if you reach the harder module 2.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Is the Digital SAT adaptive?',
+        a: 'Yes. The Digital SAT uses section-level adaptive testing. Each section has two modules, and your performance on the first module decides whether the second module is easier or harder.',
+      },
+      {
+        q: 'Can I go back to questions on the Digital SAT?',
+        a: 'Yes, within the same module. You can flag questions and return to them before time runs out, but once a module ends you cannot go back to it.',
+      },
+      {
+        q: 'Does getting the easier second module mean a low score?',
+        a: 'Not necessarily. Many students score well after the easier second module, but the highest scores are generally only reachable after the harder one. Strong performance on module 1 keeps every score open.',
+      },
+    ],
+    sources: [
+      { name: 'College Board: Understanding SAT Scores', url: 'https://satsuite.collegeboard.org/scores/understanding-scores' },
+      { name: 'College Board: Digital SAT overview', url: 'https://satsuite.collegeboard.org/digital' },
+    ],
+  },
+  {
+    slug: 'sat-math-strategies',
+    title: 'How to Improve Your SAT Math Score: 10 Strategies That Work',
+    metaTitle: 'How to Improve Your SAT Math Score: 10 Strategies | ACT SAT GO',
+    description:
+      'Ten practical strategies to raise your Digital SAT Math score, from mastering the built-in Desmos calculator to targeting the topics that appear most.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'SAT',
+    answer:
+      'To raise your SAT Math score, focus on Algebra and Advanced Math, which make up about 70% of the section, learn to use the built-in Desmos graphing calculator, and practice under timed conditions. Review every mistake by topic, because most students lose points on the same few skills again and again.',
+    sections: [
+      {
+        heading: 'What SAT Math covers',
+        table: {
+          head: ['Content domain', 'Share of questions', 'Examples'],
+          rows: [
+            ['Algebra', 'About 35%', 'Linear equations, inequalities, systems of equations'],
+            ['Advanced Math', 'About 35%', 'Quadratics, exponential and nonlinear functions'],
+            ['Problem-Solving and Data Analysis', 'About 15%', 'Ratios, percentages, statistics, probability'],
+            ['Geometry and Trigonometry', 'About 15%', 'Area, volume, circles, right triangles, trigonometry'],
+          ],
+        },
+      },
+      {
+        heading: '10 strategies to raise your score',
+        list: [
+          'Master linear equations and functions first. They appear throughout Algebra and Advanced Math.',
+          'Learn Desmos. The built-in graphing calculator can solve systems, find intercepts and check answers in seconds.',
+          'Use the reference sheet. Formulas for area, volume and special right triangles are provided, so you do not need to memorize them.',
+          'Read the last line of the question first, so you know exactly what to solve for.',
+          'Plug in the answer choices when solving directly would take longer.',
+          'Pick simple numbers for variables to test expressions and answer choices.',
+          'Watch units and wording such as “percent increase” or “in terms of x.”',
+          'For student-produced responses, check the answer format, including fractions and negative numbers.',
+          'Make module 1 count by working carefully, because it decides whether you get the harder module 2.',
+          'Keep an error log. Note the topic and reason for every mistake, then drill those topics.',
+        ],
+      },
+      {
+        heading: 'A weekly practice routine',
+        list: [
+          'Two or three focused practice sessions on your weakest topics.',
+          'One timed module to build pacing.',
+          'One full-length practice test every two to three weeks, followed by a full review.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Can you use a calculator on SAT Math?',
+        a: 'Yes. A calculator is allowed on the entire Digital SAT Math section. The Bluebook app includes a built-in Desmos graphing calculator, and you can also bring an approved calculator of your own.',
+      },
+      {
+        q: 'What is the most common topic on SAT Math?',
+        a: 'Algebra and Advanced Math together make up about 70% of SAT Math questions. Linear equations, systems of equations, quadratics and functions appear most often, so they are the best place to start.',
+      },
+      {
+        q: 'How can I improve my SAT Math score quickly?',
+        a: 'Focus on the topics you miss most, learn to use Desmos for systems and graphs, and take timed practice modules. Students who already know the content often gain points quickly by fixing careless errors and pacing.',
+      },
+    ],
+    sources: [
+      { name: 'College Board: The SAT Math Section', url: 'https://satsuite.collegeboard.org/sat/whats-on-the-test/math' },
+    ],
+  },
+  {
+    slug: 'sat-reading-and-writing-question-types',
+    title: 'SAT Reading and Writing: Question Types and How to Answer Each One',
+    metaTitle: 'SAT Reading & Writing Question Types Explained | ACT SAT GO',
+    description:
+      'The four content domains and the main question types on the Digital SAT Reading and Writing section, with a strategy for each.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'SAT',
+    answer:
+      'The Digital SAT Reading and Writing section has 54 questions in four domains: Craft and Structure, Information and Ideas, Standard English Conventions, and Expression of Ideas. Every question comes with its own short passage, so the best strategy is to read the question first, then read the passage looking only for what the question needs.',
+    sections: [
+      {
+        heading: 'The four content domains',
+        table: {
+          head: ['Domain', 'Share of questions', 'What it tests'],
+          rows: [
+            ['Craft and Structure', 'About 28%', 'Words in context, text structure and purpose, connections between two texts'],
+            ['Information and Ideas', 'About 26%', 'Central ideas, details, evidence (text and data) and inferences'],
+            ['Standard English Conventions', 'About 26%', 'Grammar, punctuation and sentence structure'],
+            ['Expression of Ideas', 'About 20%', 'Transitions and combining information from notes'],
+          ],
+        },
+      },
+      {
+        heading: 'Question types and how to answer them',
+        list: [
+          'Words in context: predict a word for the blank before looking at the choices, then pick the closest match.',
+          'Text structure and purpose: ask what the author is doing, such as explaining, arguing or contrasting.',
+          'Cross-text connections: summarise each text’s position in a few words, then compare.',
+          'Central ideas and details: the right answer is supported by the whole passage, not one line.',
+          'Command of evidence (textual): choose the quotation that directly supports the stated claim.',
+          'Command of evidence (quantitative): read the table or graph carefully and match the exact numbers to the claim.',
+          'Inferences: choose the ending that must be true based on the passage, not one that might be true.',
+          'Boundaries: identify whether you are joining clauses, and apply comma, semicolon and colon rules.',
+          'Form, structure and sense: check verb tense, subject-verb agreement and pronoun agreement.',
+          'Transitions: work out the logical relationship between sentences, such as contrast, cause or example.',
+          'Rhetorical synthesis: re-read the stated goal and pick the answer that meets it using only the notes.',
+        ],
+      },
+      {
+        heading: 'Pacing tips',
+        list: [
+          'You have about 71 seconds per question, so do not get stuck on one passage.',
+          'Grammar and transition questions are usually fastest, so make sure you bank those points.',
+          'Flag slow questions and return to them before the module ends.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'How many questions are on SAT Reading and Writing?',
+        a: 'The Reading and Writing section has 54 questions in 64 minutes, split into two modules of 27 questions and 32 minutes each. Each question has its own short passage or pair of passages.',
+      },
+      {
+        q: 'What grammar rules are tested on the SAT?',
+        a: 'The SAT tests sentence boundaries (commas, semicolons, colons and run-ons) and form, structure and sense, including subject-verb agreement, verb tense, pronouns, possessives and modifiers.',
+      },
+      {
+        q: 'How can I improve my SAT Reading and Writing score?',
+        a: 'Learn the grammar rules that are tested, practise each question type separately, and review every mistake to see whether it came from a rule, vocabulary or reading the passage too quickly. Timed practice in Bluebook builds pacing.',
+      },
+    ],
+    sources: [
+      { name: 'College Board: The SAT Reading and Writing Section', url: 'https://satsuite.collegeboard.org/sat/whats-on-the-test/reading-writing' },
+    ],
+  },
+  {
+    slug: 'online-vs-in-person-sat-tutoring',
+    title: 'Online vs In-Person SAT Tutoring: Which Works Better?',
+    metaTitle: 'Online vs In-Person SAT Tutoring: Which Works Better? | ACT SAT GO',
+    description:
+      'How online and in-person SAT and ACT tutoring compare on results, convenience, tutor choice and cost, and how to choose the right option for your child.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'SAT & ACT',
+    answer:
+      'Online SAT tutoring works as well as in-person tutoring for most students, because the Digital SAT itself is taken on a screen. Online tutoring also gives you a much wider choice of specialist tutors and saves travel time. In-person tutoring can suit younger students or those who struggle to focus on screens. What matters most is a specialist tutor, a clear plan and regular practice tests.',
+    sections: [
+      {
+        heading: 'Side-by-side comparison',
+        table: {
+          head: ['', 'Online tutoring', 'In-person tutoring'],
+          rows: [
+            ['Tutor choice', 'Any qualified tutor, anywhere', 'Limited to tutors nearby'],
+            ['Convenience', 'No travel; easy to fit around school and activities', 'Travel time for one side'],
+            ['Matches the test format', 'Yes: practice on screen, like the Digital SAT', 'Partly: needs extra on-screen practice'],
+            ['Focus and engagement', 'Best for students comfortable on screens', 'Can help students who are easily distracted'],
+            ['Cost', 'Often lower, with no travel costs', 'Often higher in many areas'],
+          ],
+        },
+      },
+      {
+        heading: 'What matters more than the format',
+        list: [
+          'A tutor who specialises in the exact test: the Digital SAT or the enhanced ACT.',
+          'A diagnostic test at the start, so the plan targets real gaps.',
+          'Full-length practice tests with score reports during preparation.',
+          'Homework between sessions, reviewed by the tutor.',
+          'Regular updates for parents on scores and progress.',
+        ],
+      },
+      {
+        heading: 'How to make online tutoring work well',
+        list: [
+          'Use a laptop or desktop rather than a phone, with a stable internet connection.',
+          'Choose a quiet space and keep the camera on.',
+          'Use a shared whiteboard or screen so the tutor can see your working.',
+          'Practise in Bluebook between sessions to get used to the real test interface.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Is online SAT tutoring effective?',
+        a: 'Yes. Online SAT tutoring is effective for most students, especially since the Digital SAT is taken on a computer. The tutor’s expertise, a personalised plan and regular practice tests matter far more than whether sessions are online or in person.',
+      },
+      {
+        q: 'Is online tutoring cheaper than in-person tutoring?',
+        a: 'Often, yes. Online tutoring removes travel costs and gives you access to a wider range of tutors and price points. At ACT SAT GO, all programs are live, 1-on-1 and online, with fees listed on the SAT and ACT pages.',
+      },
+      {
+        q: 'What should I look for in an online SAT tutor?',
+        a: 'Look for a tutor who specialises in the Digital SAT, starts with a diagnostic test, sets homework after every session, includes full-length practice tests with score reports, and keeps parents updated on progress.',
+      },
+    ],
+  },
 ];
 
 export const ARTICLE_BY_SLUG: Record<string, Article> = Object.fromEntries(ARTICLES.map((a) => [a.slug, a]));
