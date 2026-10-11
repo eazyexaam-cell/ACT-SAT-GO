@@ -1,0 +1,21 @@
+# Tells Bing (and other IndexNow engines) about every sitemap URL after the website changes.
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths: ['website/**']
+  workflow_dispatch:
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      # Give Vercel time to finish the production deploy so the new sitemap is live.
+      - run: sleep 240
+        if: github.event_name == 'push'
+      - run: node website/nextgen-react/scripts/indexnow.mjs
