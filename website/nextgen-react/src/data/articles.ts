@@ -951,6 +951,616 @@ export const ARTICLES: Article[] = [
       },
     ],
   },
+  {
+    slug: 'psat-nmsqt-national-merit',
+    title: 'PSAT/NMSQT Explained: Scores, National Merit and How to Prepare',
+    metaTitle: 'PSAT/NMSQT and National Merit Explained (2026) | ACT SAT GO',
+    description:
+      'What the digital PSAT/NMSQT is, how it is scored, how the National Merit Selection Index works, and how juniors can prepare to qualify.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'SAT',
+    answer:
+      'The PSAT/NMSQT is a shorter version of the Digital SAT, scored from 320 to 1520 and taken in the fall. For juniors it is also the qualifying test for the National Merit Scholarship Program: about 16,000 of the roughly 1.5 million entrants are named Semifinalists, based on a Selection Index and a cutoff that differs by state.',
+    sections: [
+      {
+        heading: 'PSAT/NMSQT at a glance',
+        table: {
+          head: ['', 'PSAT/NMSQT'],
+          rows: [
+            ['Format', 'Digital and adaptive, taken in the Bluebook app at school'],
+            ['Sections', 'Reading and Writing, then Math'],
+            ['Length', 'About 2 hours 14 minutes'],
+            ['Score range', '320 to 1520 (160 to 760 per section)'],
+            ['When', 'October, through your high school'],
+            ['National Merit eligibility', 'Scores from the junior-year test only'],
+          ],
+        },
+      },
+      {
+        heading: 'How the National Merit Selection Index works',
+        paragraphs: [
+          'National Merit does not use your total score. It uses a Selection Index: double your Reading and Writing section score, add your Math section score, then divide by 10. The index runs from 48 to 228, so Reading and Writing counts twice as much as Math.',
+          'Each state has its own Semifinalist cutoff, set so that the number of Semifinalists matches the state’s share of graduating seniors. About 34,000 more high scorers are named Commended Students. Semifinalists who meet the remaining requirements, including a confirming SAT or ACT score, can become Finalists and compete for National Merit Scholarships.',
+        ],
+      },
+      {
+        heading: 'How to prepare for the PSAT',
+        list: [
+          'Start in the summer before junior year, so preparation also counts toward the SAT.',
+          'Take a full practice PSAT in the Bluebook app to get a baseline score.',
+          'Focus extra time on Reading and Writing, since it is doubled in the Selection Index.',
+          'Practise with the built-in Desmos calculator so Math feels familiar on test day.',
+          'Review every mistake by question type rather than just doing more questions.',
+        ],
+      },
+      {
+        heading: 'Does the PSAT matter if you are not aiming for National Merit?',
+        paragraphs: [
+          'Colleges do not see PSAT scores, so a low PSAT has no effect on admissions. Its real value is as a free, official practice run of the Digital SAT that shows which skills need work before the real test.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'What is a good PSAT score?',
+        a: 'A score above about 1200 is above average for juniors. For National Merit recognition you usually need a Selection Index in roughly the top 3 to 4 percent of test takers, which means a total score well above 1400 in most states.',
+      },
+      {
+        q: 'Do colleges see PSAT scores?',
+        a: 'No. PSAT scores are not sent to colleges and do not affect admissions. Only National Merit recognition, which you can list on applications, comes from the PSAT.',
+      },
+      {
+        q: 'Can sophomores take the PSAT/NMSQT?',
+        a: 'Yes, many schools offer it to sophomores as practice. Only the junior-year score counts toward National Merit.',
+      },
+      {
+        q: 'Is the PSAT the same as the SAT?',
+        a: 'It uses the same digital, adaptive format and question types, but it is slightly shorter and scored on a 320 to 1520 scale instead of 400 to 1600.',
+      },
+    ],
+    sources: [
+      { name: 'College Board: PSAT/NMSQT', url: 'https://satsuite.collegeboard.org/psat-nmsqt' },
+      { name: 'National Merit Scholarship Corporation', url: 'https://www.nationalmerit.org/' },
+    ],
+  },
+  {
+    slug: 'sat-act-superscore',
+    title: 'What Is a Superscore? How SAT and ACT Superscoring Works',
+    metaTitle: 'SAT and ACT Superscoring Explained | ACT SAT GO',
+    description:
+      'How superscoring combines your best section scores across test dates, which tests offer it, and how to use it when planning retakes.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'SAT & ACT',
+    answer:
+      'A superscore combines your best section scores from different test dates into one new total. For the SAT, a college takes your highest Reading and Writing score and your highest Math score. For the ACT, ACT itself calculates a superscore from your best section scores once you have tested more than once. Not every college superscores, so check each school’s policy.',
+    sections: [
+      {
+        heading: 'A superscore example',
+        table: {
+          head: ['', 'Reading and Writing', 'Math', 'Total'],
+          rows: [
+            ['March SAT', '680', '640', '1320'],
+            ['June SAT', '650', '700', '1350'],
+            ['Superscore', '680', '700', '1380'],
+          ],
+        },
+      },
+      {
+        heading: 'How superscoring works on each test',
+        list: [
+          'SAT: the college picks your highest section scores from the score reports you send. You can use Score Choice to send only some test dates, unless the college asks for all scores.',
+          'ACT: ACT reports a superscore built from your best English, Math and Reading scores across dates. Your composite is then the average of those best scores.',
+          'Policies vary: some colleges superscore, some consider your single highest test date, and a few ask for every score you have.',
+        ],
+      },
+      {
+        heading: 'How to use superscoring in your test plan',
+        paragraphs: [
+          'Superscoring rewards focused retakes. If your first test shows a strong Math score but weaker Reading and Writing, your next round of preparation can concentrate on Reading and Writing, because the Math score is already banked at colleges that superscore.',
+          'Plan for two or three attempts with time to study in between. Testing again without new preparation rarely moves a score much.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Do all colleges accept superscores?',
+        a: 'No. Many colleges superscore the SAT and ACT, but some use your highest single test date and a few require all scores. Each college lists its policy on its admissions website.',
+      },
+      {
+        q: 'Can I superscore across the SAT and ACT?',
+        a: 'No. Superscores only combine sections from the same test. Colleges compare SAT and ACT scores using the official concordance tables.',
+      },
+      {
+        q: 'Does superscoring mean I should take the SAT many times?',
+        a: 'Not necessarily. Two or three well-prepared attempts are usually enough. Very long testing histories add little and take time away from applications and coursework.',
+      },
+    ],
+    sources: [
+      { name: 'ACT: Superscoring', url: 'https://www.act.org/content/act/en/students-and-parents/high-school-success/testing-advice-for-the-act/superscore-faqs.html' },
+      { name: 'College Board: Sending SAT Scores', url: 'https://satsuite.collegeboard.org/scores/sending-sat-scores/weekend' },
+    ],
+  },
+  {
+    slug: 'how-many-times-take-sat',
+    title: 'How Many Times Should You Take the SAT or ACT?',
+    metaTitle: 'How Many Times Should You Take the SAT or ACT? | ACT SAT GO',
+    description:
+      'The limits on SAT and ACT retakes, why two or three attempts is the usual plan, and how to time retakes around junior and senior year.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'SAT & ACT',
+    answer:
+      'Most students should plan to take the SAT or ACT two or three times. The College Board has no limit on SAT attempts, and ACT allows up to 12. A first test in the spring of junior year, a retake in early summer or August, and an optional final attempt in early senior fall fits most application deadlines.',
+    sections: [
+      {
+        heading: 'A typical retake plan',
+        table: {
+          head: ['Attempt', 'When', 'Goal'],
+          rows: [
+            ['First test', 'Spring of junior year', 'Get an official baseline after initial prep'],
+            ['Second test', 'June or August', 'Raise weaker sections with targeted practice'],
+            ['Third test (optional)', 'September to early November of senior year', 'Last chance before early application deadlines'],
+          ],
+        },
+      },
+      {
+        heading: 'When a retake makes sense',
+        list: [
+          'Your score is below the middle range at colleges on your list.',
+          'Your practice test scores are clearly higher than your official score.',
+          'One section is much weaker than the other and you have time to work on it.',
+          'A college you are applying to superscores, so a strong section from a second test can raise your total.',
+        ],
+      },
+      {
+        heading: 'When to stop testing',
+        paragraphs: [
+          'Stop when your score is at or above the middle 50 percent range for your target colleges, or when two well-prepared attempts land within a few points of each other. At that point, time is usually better spent on grades, essays and activities.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Does taking the SAT many times look bad?',
+        a: 'Two or three attempts is normal and does not look bad. With Score Choice and superscoring, most colleges focus on your best results. A very long list of attempts can look unfocused at colleges that require all scores.',
+      },
+      {
+        q: 'How much do scores improve on a retake?',
+        a: 'Many students improve on their second attempt because they are more familiar with the test. The biggest gains come from targeted preparation between attempts, not from retesting alone.',
+      },
+      {
+        q: 'Is there a limit on ACT attempts?',
+        a: 'Yes. ACT allows up to 12 attempts. Testing through a school or state program does not count toward that limit.',
+      },
+    ],
+    sources: [
+      { name: 'College Board: SAT Dates and Deadlines', url: 'https://satsuite.collegeboard.org/sat/dates-deadlines' },
+    ],
+  },
+  {
+    slug: 'desmos-calculator-digital-sat',
+    title: 'How to Use the Desmos Calculator on the Digital SAT',
+    metaTitle: 'Desmos Calculator on the Digital SAT: Tips and Tricks | ACT SAT GO',
+    description:
+      'How the built-in Desmos graphing calculator works on the Digital SAT, which question types it solves fastest, and how to practise with it.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'SAT',
+    answer:
+      'The Digital SAT has a Desmos graphing calculator built into the Bluebook app, and you can use it on every Math question. It is fastest for systems of equations, quadratics, intersections and checking answer choices. You may also bring your own approved calculator, but students who practise with Desmos usually save the most time.',
+    sections: [
+      {
+        heading: 'Where Desmos saves the most time',
+        table: {
+          head: ['Question type', 'What to do in Desmos'],
+          rows: [
+            ['Systems of equations', 'Type both equations and click the intersection point'],
+            ['Quadratics', 'Graph the function to read the vertex, roots and y-intercept'],
+            ['Number of solutions', 'Graph both sides and count the intersections'],
+            ['Inequalities', 'Graph them and test which answer choice sits in the shaded region'],
+            ['Unknown constants', 'Use a slider for the constant and watch the graph change'],
+            ['Statistics', 'Enter a list and use mean() or median()'],
+          ],
+        },
+      },
+      {
+        heading: 'Desmos tips',
+        list: [
+          'Type equations exactly as written. Desmos accepts y = and x = forms and most standard notation.',
+          'Click a curve to see key points such as roots, maximums and intersections.',
+          'Use the zoom buttons or adjust the axes when a point is off screen.',
+          'Know when not to use it: simple arithmetic and one-step algebra are often faster by hand.',
+          'Practise with Desmos in Bluebook practice tests, so the layout is familiar on test day.',
+        ],
+      },
+      {
+        heading: 'Desmos or your own calculator?',
+        paragraphs: [
+          'You can bring an approved graphing or scientific calculator, and some students prefer physical buttons. Desmos is usually faster for anything involving graphs, which covers a large share of the Algebra and Advanced Math questions.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Can you use Desmos on the whole SAT Math section?',
+        a: 'Yes. The Desmos graphing calculator is available on every question in both Math modules of the Digital SAT.',
+      },
+      {
+        q: 'Is using Desmos cheating?',
+        a: 'No. Desmos is built into the official Bluebook testing app and is allowed for every Math question.',
+      },
+      {
+        q: 'Can I bring my own calculator to the Digital SAT?',
+        a: 'Yes, as long as it is on the College Board’s approved calculator list. You can switch between your calculator and Desmos during the test.',
+      },
+    ],
+    sources: [
+      { name: 'College Board: Calculator Policy', url: 'https://satsuite.collegeboard.org/digital/what-to-bring-do/calculator-policy' },
+    ],
+  },
+  {
+    slug: 'sat-act-accommodations',
+    title: 'SAT and ACT Accommodations: Extended Time and How to Apply',
+    metaTitle: 'SAT and ACT Accommodations: Extended Time and How to Apply | ACT SAT GO',
+    description:
+      'Which testing accommodations the SAT and ACT offer, who qualifies, and the steps and deadlines for requesting extended time or other support.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'SAT & ACT',
+    answer:
+      'Students with a documented disability can request accommodations such as extended time, extra breaks or assistive technology. For the SAT, the request goes through your school’s SSD coordinator to the College Board, ideally at least seven weeks before the test. For the ACT, you register first, then your school submits the request. Approved College Board accommodations also apply to the PSAT and AP exams.',
+    sections: [
+      {
+        heading: 'Common accommodations',
+        table: {
+          head: ['Accommodation', 'What it means'],
+          rows: [
+            ['Extended time', 'Usually 50% or 100% more time per section'],
+            ['Extra or longer breaks', 'Additional rest between sections'],
+            ['Assistive technology', 'Screen readers or other approved tools'],
+            ['Reading and seeing support', 'Larger text, magnification or color contrast'],
+            ['Small-group setting', 'Testing in a quieter room with fewer students'],
+          ],
+        },
+      },
+      {
+        heading: 'How to request SAT accommodations',
+        list: [
+          'Talk to your school’s SSD coordinator, usually in the counseling office.',
+          'Give the coordinator your documentation, such as an IEP, 504 plan or evaluation.',
+          'The coordinator submits the request through College Board SSD Online.',
+          'Submit at least seven weeks before your test date, since review can take that long.',
+          'Once approved, accommodations generally carry over to future SAT Suite and AP exams.',
+        ],
+      },
+      {
+        heading: 'How to request ACT accommodations',
+        paragraphs: [
+          'Register for a national ACT test date first. Then ask your school’s test accommodations coordinator to submit your request through ACT’s accommodations system, along with supporting documentation. Do this well before the registration deadline so a decision arrives in time.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Do colleges know if I had extended time?',
+        a: 'No. Score reports sent to colleges do not show whether you tested with accommodations.',
+      },
+      {
+        q: 'Who qualifies for SAT accommodations?',
+        a: 'Students with a documented disability that affects test taking, such as ADHD, a learning disability or a physical condition. Most students with an IEP or 504 plan that includes testing accommodations at school are approved.',
+      },
+      {
+        q: 'How early should I apply?',
+        a: 'At least seven weeks before the SAT you plan to take. Applying in the fall of sophomore or junior year means accommodations are in place for the PSAT, SAT and AP exams.',
+      },
+    ],
+    sources: [
+      { name: 'College Board: Accommodations', url: 'https://accommodations.collegeboard.org/' },
+      { name: 'College Board: When to submit accommodation requests', url: 'https://satsuite.collegeboard.org/help-center/when-should-i-submit-requests-accommodations' },
+      { name: 'ACT: Accommodations', url: 'https://www.act.org/content/act/en/products-and-services/the-act/registration/accommodations.html' },
+    ],
+  },
+  {
+    slug: 'how-to-send-sat-scores',
+    title: 'How to Send SAT and ACT Scores to Colleges',
+    metaTitle: 'How to Send SAT and ACT Scores to Colleges | ACT SAT GO',
+    description:
+      'Free score reports, Score Choice, self-reported scores and deadlines: a step-by-step guide to sending SAT and ACT scores to colleges.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'College Admissions',
+    answer:
+      'You send official SAT scores from your College Board account and ACT scores from your MyACT account. The SAT includes four free score reports if you choose colleges within nine days of the test, and the ACT sends free reports to the colleges you pick when you register. After that, each report costs a fee. Many colleges now let you self-report scores on the application and only ask for official scores after you enroll.',
+    sections: [
+      {
+        heading: 'SAT vs ACT score sending',
+        table: {
+          head: ['', 'SAT', 'ACT'],
+          rows: [
+            ['Free reports', 'Up to 4, if chosen within 9 days after the test', 'Sent to the colleges you pick when you register'],
+            ['Choose which dates to send', 'Yes, with Score Choice', 'Yes, by test date'],
+            ['Superscore report', 'Colleges build it from the reports you send', 'ACT can send a superscore'],
+            ['Where to send from', 'College Board account', 'MyACT account'],
+          ],
+        },
+      },
+      {
+        heading: 'Step by step',
+        list: [
+          'Check each college’s testing policy: required, optional, or test-blind.',
+          'Check whether the college accepts self-reported scores on the application.',
+          'Decide which test dates to send, if the college allows Score Choice.',
+          'Use your free score reports where you can, and send others well before deadlines.',
+          'Confirm in each college’s applicant portal that scores have arrived.',
+        ],
+      },
+      {
+        heading: 'Fee waivers',
+        paragraphs: [
+          'Students who are eligible for an SAT or ACT fee waiver also get unlimited or extra free score reports. Ask your school counselor if you qualify.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Should I use the four free score reports?',
+        a: 'Usually yes, if you already know a few colleges you will apply to. Sending scores you are unhappy with is rarely a problem, because most colleges superscore or consider your best result.',
+      },
+      {
+        q: 'What is self-reporting?',
+        a: 'Many colleges let you enter your scores on the application for free and only require an official score report if you enroll. Check each college’s admissions website.',
+      },
+      {
+        q: 'How long does it take for scores to arrive?',
+        a: 'Electronic score reports usually reach colleges within about two weeks. Send them at least a few weeks before the application deadline.',
+      },
+    ],
+    sources: [
+      { name: 'College Board: Sending SAT Scores', url: 'https://satsuite.collegeboard.org/scores/sending-sat-scores/weekend' },
+      { name: 'ACT: Sending Your Scores', url: 'https://www.act.org/content/act/en/products-and-services/the-act/scores/sending-your-scores.html' },
+    ],
+  },
+  {
+    slug: 'free-sat-practice-tests',
+    title: 'The Best Free SAT and ACT Practice Tests',
+    metaTitle: 'Best Free SAT and ACT Practice Tests (2026) | ACT SAT GO',
+    description:
+      'Where to find free, official Digital SAT and enhanced ACT practice tests, and how to use them to raise your score.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'SAT & ACT',
+    answer:
+      'The best free practice tests come from the test makers. For the SAT, use the full-length adaptive practice tests in the College Board’s Bluebook app, plus Khan Academy and the SAT Suite Question Bank. For the ACT, use the free practice test on ACT’s website. ACT SAT GO also offers free timed SAT and ACT practice tests with a score report.',
+    sections: [
+      {
+        heading: 'Free official resources',
+        table: {
+          head: ['Resource', 'Test', 'What you get'],
+          rows: [
+            ['Bluebook practice tests', 'SAT and PSAT', 'Full-length adaptive tests in the real testing app'],
+            ['Khan Academy', 'SAT', 'Free lessons and practice by skill'],
+            ['SAT Suite Question Bank', 'SAT', 'Thousands of official questions you can filter by skill and difficulty'],
+            ['ACT practice test', 'ACT', 'A free full-length official practice test'],
+            ['ACT SAT GO free test', 'SAT and ACT', 'A timed practice test with a score report'],
+          ],
+        },
+      },
+      {
+        heading: 'How to use practice tests well',
+        list: [
+          'Take the first test early to get a baseline, then build a study plan from it.',
+          'Take each test in one sitting, timed, in a quiet room.',
+          'Spend as long reviewing a test as taking it. Write down why you missed each question.',
+          'Space full tests two to three weeks apart and practise weak skills in between.',
+          'Save one official test for the final week before your exam.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'How many practice tests should I take?',
+        a: 'Most students benefit from four to six full-length tests, spread across their preparation, with careful review after each one.',
+      },
+      {
+        q: 'Are Bluebook practice tests accurate?',
+        a: 'Yes. They are made by the College Board, use the same adaptive format as the real test, and give the most reliable score prediction.',
+      },
+      {
+        q: 'Are unofficial practice tests worth using?',
+        a: 'They can help with extra practice, but question style and difficulty vary. Use official tests to measure your score and unofficial material for drilling skills.',
+      },
+    ],
+    sources: [
+      { name: 'College Board: Bluebook practice tests', url: 'https://satsuite.collegeboard.org/practice/practice-tests' },
+      { name: 'College Board: SAT Suite Question Bank', url: 'https://satsuiteeducatorquestionbank.collegeboard.org/' },
+      { name: 'ACT: Free practice test', url: 'https://www.act.org/content/act/en/products-and-services/the-act/test-preparation.html' },
+    ],
+  },
+  {
+    slug: 'act-math-tips',
+    title: 'ACT Math Tips: How to Raise Your Score on the Enhanced ACT',
+    metaTitle: 'ACT Math Tips for the Enhanced ACT | ACT SAT GO',
+    description:
+      'What the enhanced ACT Math section covers, how its timing works, and practical strategies to answer more questions correctly.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'ACT',
+    answer:
+      'The enhanced ACT Math section has 45 questions in 50 minutes, each with four answer choices, and a calculator is allowed throughout. To raise your score, learn the core formulas the test does not give you, pace yourself so the harder later questions get enough time, and answer every question, since there is no penalty for guessing.',
+    sections: [
+      {
+        heading: 'ACT Math at a glance',
+        table: {
+          head: ['', 'Enhanced ACT Math'],
+          rows: [
+            ['Questions', '45'],
+            ['Time', '50 minutes, about 67 seconds per question'],
+            ['Answer choices', '4 per question'],
+            ['Calculator', 'Allowed on the whole section'],
+            ['Formula sheet', 'Not provided'],
+            ['Wrong-answer penalty', 'None'],
+          ],
+        },
+      },
+      {
+        heading: 'Strategies that work',
+        list: [
+          'Memorise key formulas: area and volume, the Pythagorean theorem, slope, distance and midpoint, and SOH CAH TOA.',
+          'Questions tend to get harder, so move quickly through the early ones to bank time for later.',
+          'Mark and skip a question that takes more than a minute and a half, then come back.',
+          'Plug in the answer choices or pick numbers when the algebra looks messy.',
+          'Never leave a question blank. With four choices, a guess has a one in four chance.',
+          'Practise the topics that appear most: algebra, functions, geometry and basic statistics.',
+        ],
+      },
+      {
+        heading: 'How ACT Math differs from SAT Math',
+        paragraphs: [
+          'ACT Math covers a little more geometry and trigonometry and gives less time per question than the SAT. The SAT is adaptive and has the built-in Desmos calculator. Students who like fast, direct questions often prefer ACT Math.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Is there a formula sheet on the ACT?',
+        a: 'No. The ACT does not provide formulas, so you need to know the common geometry, algebra and trigonometry formulas yourself.',
+      },
+      {
+        q: 'What calculator can I use on the ACT?',
+        a: 'Most graphing and scientific calculators are allowed, but calculators with computer algebra systems, such as the TI-89, are not. Check ACT’s calculator policy before test day.',
+      },
+      {
+        q: 'What is a good ACT Math score?',
+        a: 'The national average ACT Math score is about 19. A score of 25 or higher is above average, and selective colleges often look for 30 or more.',
+      },
+    ],
+    sources: [
+      { name: 'ACT: The Enhanced ACT Explained', url: 'https://counselorblog.act.org/the-enhanced-act-explained' },
+    ],
+  },
+  {
+    slug: 'act-english-reading-tips',
+    title: 'ACT English and Reading Tips for the Enhanced ACT',
+    metaTitle: 'ACT English and Reading Tips (Enhanced ACT) | ACT SAT GO',
+    description:
+      'The grammar rules ACT English tests most, how to approach ACT Reading passages, and timing strategies for both sections.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'ACT',
+    answer:
+      'On the enhanced ACT, English has 50 questions in 35 minutes and Reading has 36 questions in 40 minutes. For English, learn the small set of grammar rules that appear again and again and choose the shortest correct answer. For Reading, read each passage once for the main idea, then go back to the text to prove every answer.',
+    sections: [
+      {
+        heading: 'English and Reading at a glance',
+        table: {
+          head: ['', 'English', 'Reading'],
+          rows: [
+            ['Questions', '50', '36'],
+            ['Time', '35 minutes', '40 minutes'],
+            ['What it tests', 'Grammar, punctuation, sentence structure and style', 'Understanding, inference and author’s purpose'],
+            ['Counts toward composite', 'Yes', 'Yes'],
+          ],
+        },
+      },
+      {
+        heading: 'ACT English tips',
+        list: [
+          'Master commas, semicolons, colons and apostrophes. They account for many questions.',
+          'Check subject-verb agreement and verb tense against the rest of the sentence.',
+          'When two answers are both correct, choose the shorter one. ACT rewards concise writing.',
+          'For questions that ask about a passage’s purpose, reread the sentences around the underlined part.',
+        ],
+      },
+      {
+        heading: 'ACT Reading tips',
+        list: [
+          'Skim each passage for the main idea and the author’s attitude before the questions.',
+          'Find the line in the text that supports your answer. If you cannot point to it, it is probably wrong.',
+          'Do your strongest passage type first if timing is tight.',
+          'Watch for answer choices that are true but do not answer the question asked.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'What grammar rules are on the ACT?',
+        a: 'The most tested rules are punctuation (commas, semicolons, colons, dashes, apostrophes), subject-verb agreement, verb tense, pronouns, modifiers and sentence boundaries. Concision and transitions are also common.',
+      },
+      {
+        q: 'How do I finish ACT Reading in time?',
+        a: 'Read for the main idea rather than every detail, answer line-reference questions first, and practise timed passages until you can finish each one in about nine minutes.',
+      },
+      {
+        q: 'Is ACT English easier than SAT Reading and Writing?',
+        a: 'ACT English is more focused on grammar and gives less time per question, while SAT Reading and Writing mixes grammar with short reading questions. Students who are strong at grammar often do well on ACT English.',
+      },
+    ],
+    sources: [
+      { name: 'ACT: The Enhanced ACT Explained', url: 'https://counselorblog.act.org/the-enhanced-act-explained' },
+    ],
+  },
+  {
+    slug: 'good-ap-score-college-credit',
+    title: 'What Is a Good AP Score, and Will It Earn College Credit?',
+    metaTitle: 'What Is a Good AP Score? AP Credit Explained | ACT SAT GO',
+    description:
+      'How AP exams are scored from 1 to 5, what scores colleges accept for credit, when scores come out, and how AP fits with the SAT and ACT.',
+    published: '2026-10-11',
+    updated: '2026-10-11',
+    tag: 'AP',
+    answer:
+      'AP exams are scored from 1 to 5. A 3 is considered passing and earns credit at many colleges, while selective colleges often require a 4 or 5. Credit policies are set by each college and can differ by subject, so check the AP credit policy of each school on your list.',
+    sections: [
+      {
+        heading: 'What each AP score means',
+        table: {
+          head: ['Score', 'College Board description', 'Credit'],
+          rows: [
+            ['5', 'Extremely well qualified', 'Credit at most colleges'],
+            ['4', 'Very well qualified', 'Credit at most colleges'],
+            ['3', 'Qualified', 'Credit at many colleges'],
+            ['2', 'Possibly qualified', 'Rarely earns credit'],
+            ['1', 'No recommendation', 'No credit'],
+          ],
+        },
+      },
+      {
+        heading: 'Key AP dates and rules',
+        list: [
+          'AP exams are held over two weeks in May.',
+          'Scores are usually released in early July.',
+          'Your free score send goes to one college or scholarship program you choose in My AP, usually by June 20.',
+          'You can ask the College Board to withhold or cancel a score before it is sent.',
+        ],
+      },
+      {
+        heading: 'Do AP scores matter for admissions?',
+        paragraphs: [
+          'AP course grades matter more than AP exam scores for admissions, because they show the rigor of your schedule. Strong exam scores still help, especially at colleges that ask you to self-report them, and they can save time and tuition through credit or placement.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Is a 3 a good AP score?',
+        a: 'Yes. A 3 means "qualified" and earns credit or placement at many colleges. Highly selective colleges more often require a 4 or 5.',
+      },
+      {
+        q: 'Do I have to send AP scores to colleges?',
+        a: 'No. Many colleges let you self-report AP scores on the application, and you only send official scores when you enroll and want credit.',
+      },
+      {
+        q: 'How should I prepare for AP exams?',
+        a: 'Learn the exam format for each subject, practise free-response questions with the official scoring guidelines, and take at least one timed practice exam. ACT SAT GO offers free AP exam guides on the resources page.',
+      },
+    ],
+    sources: [
+      { name: 'College Board: AP Scores', url: 'https://apstudents.collegeboard.org/about-ap-scores' },
+      { name: 'College Board: AP Credit Policy Search', url: 'https://apstudents.collegeboard.org/getting-credit-placement/search-policies' },
+    ],
+  },
 ];
 
 export const ARTICLE_BY_SLUG: Record<string, Article> = Object.fromEntries(ARTICLES.map((a) => [a.slug, a]));
