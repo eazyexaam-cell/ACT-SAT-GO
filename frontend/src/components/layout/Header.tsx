@@ -33,7 +33,7 @@ export function Header({ onMenuClick }: HeaderProps) {
   const { notifications, markRead } = useNotificationStore();
   const [notifOpen, setNotifOpen] = useState(false);
   const [desmosOpen, setDesmosOpen] = useState(false);
-  const showDesmos = user?.role === 'student' || user?.role === 'tutor';
+  const showDesmos = !!user;
   const notifRef = useRef<HTMLDivElement>(null);
 
   const unreadCount = notifications.filter((n) => !n.read).length;
@@ -62,7 +62,7 @@ export function Header({ onMenuClick }: HeaderProps) {
       </div>
 
       <div className="flex items-center gap-1">
-        {/* Desmos calculator, available on every page for students and tutors */}
+        {/* Desmos calculator, available on every page for every account (admin, tutor and student) */}
         {showDesmos && (
           <button onClick={() => setDesmosOpen((o) => !o)} title="Desmos calculator"
             className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
